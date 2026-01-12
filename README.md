@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ♻️ Waste Wizard – Smart Waste Management & Analytics System
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-15-black)
+![React](https://img.shields.io/badge/React-19-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-green)
+![Drizzle ORM](https://img.shields.io/badge/Drizzle-ORM-orange)
+![Turso](https://img.shields.io/badge/Turso-LibSQL-blue)
+![Deployment](https://img.shields.io/badge/Deployed-Vercel-brightgreen)
 
-First, run the development server:
+A full-stack **IoT-ready Smart Waste Management System** designed to monitor dustbin status, prevent overflow, track locations on maps, and provide analytics for efficient waste handling.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔗 Live Demo
+👉 https://wastewizard.vercel.app/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🖼️ Project Screenshots
 
-## Learn More
+### Landing Page
+![Landing Page](./screenshots/landing.png)
 
-To learn more about Next.js, take a look at the following resources:
+### Registration & Login
+![Register](./screenshots/register.png)
+![Login](./screenshots/login.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Add Dustbin (Map View)
+![Add Dustbin](./screenshots/add-dustbin.png)
 
-## Deploy on Vercel
+### Analytics Dashboard
+![Analytics](./screenshots/analytics.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Features
+
+### User Features
+- 🔐 Secure authentication (Login / Signup)
+- 👤 Category-based accounts (College, Municipal, Cafe, Airport, etc.)
+- 🗺️ Live dustbin location tracking using interactive maps
+- 🧾 View dustbin status (Green / Red fill level)
+- 🌗 Dark & Light mode support
+- 📱 Fully responsive UI (mobile + desktop)
+
+### System Features
+- ➕ Add and manage dustbins
+- 📊 Analytics dashboard for monitoring fill levels
+- 🚨 Notification system (IoT-ready)
+- ⚙️ REST APIs for future hardware integration
+- 🧠 Modular backend architecture
+
+> **Note:** Dustbin fill level defaults to **0%** until IoT hardware is connected.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Next.js 15** (App Router)
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **Lucide Icons**
+- **Leaflet.js** (Maps)
+- **Recharts** (Analytics)
+
+### Backend
+- **Next.js API Routes**
+- **REST APIs**
+- **Better Auth** (Authentication)
+- **Drizzle ORM**
+
+### Database
+- **Turso (LibSQL / SQLite)**  
+  Serverless, lightweight, edge-ready SQL database.
+
+### Deployment
+- **Vercel**
+
+---
+
+## 🧠 System Architecture
+
