@@ -19,6 +19,9 @@ A full-stack **IoT-ready Smart Waste Management System** designed to monitor dus
 
 ## 🖼️ Project Screenshots
 
+### 🎨 Frontend UI Overview
+![Frontend UI](./Frontend%20UI.png)
+
 ### 🔐 Login Page
 ![Login Page](./Login.png)
 
@@ -37,8 +40,6 @@ A full-stack **IoT-ready Smart Waste Management System** designed to monitor dus
 ### 🗄️ Database Schema
 ![Database](./Database.png)
 
-### 🎨 Frontend UI Overview
-![Frontend UI](./Frontend%20UI.png)
 
 ---
 
